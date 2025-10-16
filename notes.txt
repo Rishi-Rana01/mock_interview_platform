@@ -1,0 +1,5 @@
+## aschild
+If asChild is true, 
+the component renders a Slot utility component instead of its default element (e.g., a "<button>")
+
+# It will work as default button <button> 
