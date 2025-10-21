@@ -26,7 +26,7 @@ const InterviewCard = ({ interviewId, userId, role, type, techstack, createdAt }
 
                     <div className='flex flex-row gap-5 mt-3'>
 
-                        <div className='flex flex-row gap-2 items-center'>
+                        <div className='flex flex-row gap-2 items-cente'>
                             <Image src="/calendar.svg" alt="calendar" width={22} height={22} />
                             <p>{formattedDate}</p>
                         </div>
@@ -43,7 +43,7 @@ const InterviewCard = ({ interviewId, userId, role, type, techstack, createdAt }
 
                 </div>
 
-                <div className='flex flex-row justify-between'>
+                <div className='flex flex-row justify-between items-center mt-5 '>
 
                     <DisplayTechicons techStack={techstack} />
 
