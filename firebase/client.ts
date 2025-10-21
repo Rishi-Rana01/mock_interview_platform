@@ -1,17 +1,16 @@
 
-import { initializeApp, getApp, getApps } from "firebase/app";
-import {getAuth} from "firebase/auth";
-import {getFirestore} from "firebase/firestore";
-
+import { initializeApp,getApp,getApps } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDptujUwaDFLBokAqK24wwSmZeFrLLF4-g",
-  authDomain: "prepfast-9fa3d.firebaseapp.com",
-  projectId: "prepfast-9fa3d",
-  storageBucket: "prepfast-9fa3d.firebasestorage.app",
-  messagingSenderId: "905366516301",
-  appId: "1:905366516301:web:b6af6d7c3430d012f66204",
-  measurementId: "G-SYHQH7RTGM"
+  apiKey: "AIzaSyCsiq-Bzp5ued_pUN8CJE7HbFsAV_g-7x8",
+  authDomain: "prepfast-f804c.firebaseapp.com",
+  projectId: "prepfast-f804c",
+  storageBucket: "prepfast-f804c.firebasestorage.app",
+  messagingSenderId: "401765459405",
+  appId: "1:401765459405:web:1b23815883e09b9414d084",
+  measurementId: "G-VXVQFVR9WY"
 };
 
 // Initialize Firebase
